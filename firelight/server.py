@@ -5,14 +5,14 @@ from prettytable import PrettyTable
 import cgi
 import datetime
 import operator
-import unicodedata
+from collections import OrderedDict
 
 app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
 def index():
-    # app.jinja_env.autoescape = False
+    app.jinja_env.autoescape = False
 
     # start of tiles, atomic tile height, width and offsets between tiles
     # Note: these are percentages of the total width and height of the html body
@@ -55,13 +55,10 @@ def index():
         
         sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1))
         sorted_x.reverse()
-        sorted_x = dict(sorted_x)
+        sorted_x = OrderedDict(sorted_x)
         for j in sorted_x:
             print j
             if t < 3:
-                print
-                print "LOOOOOOOOOOK!!!! %s " % j
-                print
                 table.add_row([str(j), typeDict[j]])
                 t += 1
             else:
