@@ -63,7 +63,7 @@ def index():
                 t += 1
             else:
                 break
-        return table.get_html_string(attributes={"size":"100%", "class":"Onhold", "bgcolor":"#FF7449"})
+        return table.get_html_string(attributes={"text-align":"center","size":"100%", "class":"Onhold", "bgcolor":"#FF7449"})
 
     def threeColumn(result):
         table = PrettyTable(['Description', 'Shortage'], border=True)
@@ -329,7 +329,7 @@ def index():
             'posy': str(62),
             'height': tile_sizes['tiny_rect']['height'],
             'width': tile_sizes['tiny_rect']['width'],
-            'head': 'S# ',
+            'head': 'S# Repaired Today',
             'content1': [
                 '',
                 '',
