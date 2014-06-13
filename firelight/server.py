@@ -5,7 +5,7 @@ from prettytable import PrettyTable
 import cgi
 import datetime
 import operator
-import unicodedata
+from collections import OrderedDict
 
 app = Flask(__name__)
 
@@ -55,7 +55,7 @@ def index():
         
         sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1))
         sorted_x.reverse()
-        sorted_x = dict(sorted_x)
+        sorted_x = OrderedDict(sorted_x)
         for j in sorted_x:
             print j
             if t < 3:
