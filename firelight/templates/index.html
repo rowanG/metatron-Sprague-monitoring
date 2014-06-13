@@ -1,0 +1,11 @@
+<head>
+	<title>Metatron</title>
+</head>
+<body>
+	<h2>Metatron By Arthur Moore & Rowan Goemans</h2> 
+	<ul>
+	    {% for url in urls%}
+	    	<li><a href="{{ url['url'] }}">{{ url['name'] }}</a></li>
+	    {% endfor %}
+	</ul>
+</body>

@@ -1,0 +1,20 @@
+<head>
+	<title>Engineering Files</title>
+</head>
+<body>
+	<h2>{{ url }}</h2>
+	<h2>{{ test }}</h2>
+
+	<h4>Directories:</h4>
+	<ul>
+	  	{% for dir in dirs %}
+	    	<li><a href="{{ url }}{{ dir }}">{{ dir }}</a></li>
+	    {% endfor %}
+	</ul>
+	<h4>Files:</h4>
+	<ul>
+	    {% for file in files %}
+	    	<li><a href="{{ url }}{{ file }}">{{ file }}</a></li>
+	    {% endfor %}
+	</ul>
+</body>

@@ -116,6 +116,7 @@ def index():
     #   * * * * * * * * * * * 
     #   * * * * * * * * * * * 
     #   * * * * * * * * * * * 
+    #   * * * * * * * * * * * 
 
     # different tile sizes, new ones can be specified
     tile_sizes = {
@@ -178,6 +179,23 @@ def index():
 
     # first tile holds discription for all variables needed
     tiles = [
+        {
+            'class': 'sync',
+            'type': 'blue_tile',
+            'posx': str(4),
+            'posy': str(1),
+            'height': tile_sizes['sync_idea']['height'],
+            'width': tile_sizes['sync_idea']['width'],
+            'head': 'Components - Last refresh: %s' % currentTime,
+            'content1': [
+                '',
+                '',
+                ''
+            ],
+            'content2': [
+                ''
+            ]
+        },
 
         {
             'class': 'tile_2',
@@ -194,24 +212,6 @@ def index():
             ],
             'content2': [
 				'<h3><em>%s</em></h3>' % procedure[1]
-			]
-        },
-
-        {
-            'class': 'sync',
-            'type': 'blue_tile',
-            'posx': str(4),
-            'posy': str(1),
-            'height': tile_sizes['sync_idea']['height'],
-            'width': tile_sizes['sync_idea']['width'],
-            'head': 'Components - Last refresh: %s' % currentTime,
-            'content1': [
-                '',
-                '',
-                ''
-            ],
-            'content2': [
-				''
 			]
         },
 
@@ -345,7 +345,7 @@ def index():
         
     ]
 
-    return render_template('tile1.html', tiles=tiles)
+    return render_template('Dashboard_PCB.html', tiles=tiles)
 
 
 if __name__ == '__main__':
