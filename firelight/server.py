@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-    app.jinja_env.autoescape = False
+    app.jinja_env.autoescape = False	# Allows for pure HTML escape characters
 
     # start of tiles, atomic tile height, width and offsets between tiles
     # Note: these are percentages of the total width and height of the html body
@@ -40,74 +40,101 @@ def index():
             return str(x[0])
 
     def onHold(result):
+    	"""
+    	Creates a table of the top 5 on hold workorders.
+    	Parameter:
+    	result - tuple return from Stored Procedure
+    	"""
         table = PrettyTable(['Workorder', 'Description'])
         t = 0
         currentPos = 0
         typeDict = {}
         for x in result:
-            if x[2] in typeDict:
+            if x[2] in typeDict:	# Check if a description has been placed in Dict before, to prevent showing doubles
                 z = x[2]
-                typeDict[z] = typeDict[z] + 1
+                typeDict[z] = typeDict[z] + 1	# Add +1 to the count for this description
             else:
                 z = x[2]
-                typeDict[z] = 1
+                typeDict[z] = 1		# Add description to dictionary, and add 1 to it's counter
 
         
-        sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1))
-        sorted_x.reverse()
-        sorted_x = OrderedDict(sorted_x)
+        sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1)) # Change list of tuples to dictionary
+        sorted_x.reverse()	# Reverse order of list showing most items first
+        sorted_x = OrderedDict(sorted_x)	# Keep original order of dictionary
         for j in sorted_x:
             print j
             if t < 3:
-                table.add_row([str(j), typeDict[j]])
+                table.add_row([str(j), typeDict[j]]) # Add to the table
                 t += 1
             else:
                 break
-        return table.get_html_string(attributes={"size":"100%", "class":"Onhold", "bgcolor":"#FF7449"})
+        return table.get_html_string(attributes={"size":"100%", "class":"Onhold", "bgcolor":"#FF7449"})	# Return HTML table
 
     def threeColumn(result):
+    	"""
+    	Create a table with three columns
+    	Parameter:
+    	result - tuple return from Stored Procedure
+    	"""
         table = PrettyTable(['Description', 'Shortage'], border=True)
         t = 0
         table.border == True
         print result
         for x in result:
             if t <= 2:
-                table.add_row([x[1], x[6]])
+                table.add_row([x[1], x[6]])	# Add top three results to table
                 t += 1
             else:
                 break
         return table.get_html_string(attributes={"size":"50px", "class":"InvShortage", "bgcolor":"#08D00C", "cellpadding":"5", "align":"center"})
 
     def DOA(result):
+    	"""
+    	Create a table for the DOA's (not including HEAD)
+    	Parameters:
+    	result - tuple return from Stored Procedure
+    	"""
         table = PrettyTable(['Commodity', 'Used', 'DOA'], border=True)
         for x in result:
-            if x[0] == 'HEAD':
+            if x[0] == 'HEAD':	# Do not include 'HEAD' as a result
                 pass
             else:
-                table.add_row([x[0], x[1], x[2]])
+                table.add_row([x[0], x[1], x[2]])	# Add to the table
         print table.get_html_string(attributes={"size":"50px", "class":"DOA", "background-color":"green"})
 
         return table.get_html_string(attributes={"size":"10px", "class":"DOA", "bgcolor":"#61ABFF", "cellpadding":"5"})
 
     def doaHead(result):
+    	"""
+    	Create a table for HEAD DOA's
+    	Parameters:
+    	result - tuple return from Stored Procedure
+    	"""
         table = PrettyTable(['Commodity', 'Used', 'DOA'], border= True)
         for x in result:
-            table.add_row([x[0], x[1], x[2]])
+            table.add_row([x[0], x[1], x[2]])	# Add to the table
         return table.get_html_string(attributes={"size":"10px", "class":"DOAHead", "border":"1"})
 
     def connect(storedProcedure):
+    	"""
+    	Run a stored procedure from the database
+    	Parameter:
+    	storedProcedure - name of Stored Procedure within the database
+    	"""
         conn_string = "Driver={SQL Server Native Client 11.0};Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola;"
-        db = pyodbc.connect(conn_string)
-        c = db.cursor()
-        proc = str(storedProcedure)
+        db = pyodbc.connect(conn_string)	# Set up connection with the database
+        c = db.cursor()				# Allocate the cursor
+        proc = str(storedProcedure)		# Create variable of stored procedure given
         try:
-            fuz = c.execute("exec %s" % proc)
-            fuzzy = c.fetchall()
+            fuz = c.execute("exec %s" % proc)	# Run MS SQL query on the stored procedure
+            fuzzy = c.fetchall()		# Take all results in a tuple ready to pass to function
         except Exception, e:
-            fuzzy = e
-        return fuzzy
+            fuzzy = e				# If an error occurs, give this as the result to display
+        return fuzzy				# Return the result
 
     currentTime = datetime.datetime.now().strftime("%H:%M")
+    
+    # Create a list of procedures to be carried out, these can be called upon
     procedure = [connect('sp_dash_overdue_wo'), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_com_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days'))]
 
     #   size of screen (11x6):
