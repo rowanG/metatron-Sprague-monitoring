@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <head>
-	<meta http-equiv="refresh" content="30">
-	<title>Equallogic hard drive test monitoring by Rowan Goemans</title>
+    <meta http-equiv="refresh" content="30">
+    <title>Equallogic hard drive test monitoring by Rowan Goemans</title>
 <style>
 
 html {
-	background-color: black;
+    background-color: black;
 }
 
 html, body {
-    height: 99%;
-    width: 99%;
+    height: 1080px;
+    width: 1920px;
 }
 
 table {
-	width: 99%;
-	padding-top: 5%;
-	padding-left: 7%;
-	padding-right: 7%;
+    width: 99%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .client {
     font-family: "Segoe UI 8", Segoe UI 8, Segoe UI 8;
-    font-size:130%;
+    font-size:170%;
     font-weight:bold;
     color: white;
-    padding-top: 5px;
+    padding-top: 4%;
 }
 
 .content {
-	font-family: Calibri, sans-serif
-	padding-top=2%;
-	font-size:120%;
-	color: white;
+    font-family: Calibri, sans-serif
+    padding-top=6%;
+    font-size:160%;
+    color: white;
 }
 
 .sync {
-	position: absolute;
-	height: 4.5%;
-    width: 20%;
-    top: 3.5%;
-    left: 5.5%;
+    position: absolute;
+    height: 40px;
+    width: 400px;
+    top: 30px;
+    left: 95px;
+    padding-top: 5px;
 }
 
 {% for tile in tiles: %}
@@ -49,12 +50,12 @@ table {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
-    top: {{ tile['posy'] }}%;
-    left: {{ tile['posx'] }}%;
-    height: {{ tile['height'] }}%;
-    width: {{ tile['width'] }}%;
-	font-size:100%;
-	
+    top: {{ tile['posy'] }}px;
+    left: {{ tile['posx'] }}px;
+    height: {{ tile['height'] }}px;
+    width: {{ tile['width'] }}px;
+    font-size:100%;
+    
 }
 {% endfor %}
 
@@ -66,7 +67,7 @@ table {
     background: -moz-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(191,255,0,0.55)), color-stop(100%, rgba(97,173,26,0.55)));
     background-color: #01A204;
-	/*background: -webkit-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: -webkit-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
     /*background: -o-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
     /*background: -ms-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
     /*background: radial-gradient(ellipse at center, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
@@ -78,7 +79,7 @@ table {
     border-color: #e36464;
     border-width: 2px;*/
     /*background: rgba(245,110,110,0.55);*/
-	background-color: #DB562D;
+    background-color: #DB562D;
     /*background: -moz-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
     /*background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(245,110,110,0.55)), color-stop(41%, rgba(255,92,92,0.55)), color-stop(100%, rgba(255,13,13,0.55)));*/
     /*background: -webkit-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
@@ -92,7 +93,7 @@ table {
     /*border-style: outset;
     border-color: #93b4c9;
     border-width: 2px;*/
-	background-color: #2E8AF1;
+    background-color: #2E8AF1;
     /*background: rgba(227,249,255,0.55);*/
     /*background: -moz-radial-gradient(center, ellipse cover, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
     /*background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(227,249,255,0.55)), color-stop(100%, rgba(67,131,173,0.55)));*/
@@ -114,8 +115,8 @@ table {
     background: -ms-radial-gradient(center, ellipse cover, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
     background: radial-gradient(ellipse at center, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeff00', endColorstr='#ffcc00', GradientType=1 );*/
-	background-color: #F3B22E;
-	
+    background-color: #F3B22E;
+    
 }
 
 .purple_tile {
@@ -130,7 +131,7 @@ table {
     background: -ms-radial-gradient(center, ellipse cover, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
     background: radial-gradient(ellipse at center, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7be0', endColorstr='#7700ff', GradientType=1 );*/
-	background-color: #A401AA;
+    background-color: #A401AA;
 }
 </style>
 </head>
@@ -152,21 +153,21 @@ EqualLogic disk test monitoring
     <div class="content">
 
     <table>
-	<tr>
-  	<td>test: </td>
-  	<td align="right">{{ tile['test'] }}</td>		
-	</tr>
-	<tr>
-  	<td>status: </td>
-  	<td align="right">{{ tile['state'] }}</td>		
-	</tr>
-	<tr>
-  	<td>time: </td>
-  	<td align="right"> {{ tile['time'] }}</td>		
-	</tr>
-	</table>
+    <tr>
+    <td>test: </td>
+    <td align="right">{{ tile['test'] }}</td>       
+    </tr>
+    <tr>
+    <td>status: </td>
+    <td align="right">{{ tile['state'] }}</td>      
+    </tr>
+    <tr>
+    <td>time: </td>
+    <td align="right"> {{ tile['time'] }}</td>      
+    </tr>
+    </table>
 
-	</div>
+    </div>
     
 </div>
 {%  endfor %}

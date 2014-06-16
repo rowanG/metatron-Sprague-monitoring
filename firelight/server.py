@@ -541,12 +541,12 @@ def clients():
     r_server=redis.Redis("127.0.0.1")
     current_time=time.time()
 
-    start_x = 3.5
-    start_y = 11.5
-    tile_width = 17.3
-    tile_height = 19
-    tile_offset_x = 1.5
-    tile_offset_y = 3
+    start_x = 80
+    start_y = 100
+    tile_width = 335
+    tile_height = 210
+    tile_offset_x = 25
+    tile_offset_y = 25
 
     # return relative position in percentage from the internal tile positon
     def gety(y):
@@ -808,6 +808,6 @@ def clients():
 if __name__ == '__main__':
     app.run(
         debug=True,
-        host="192.168.0.216",
-        port=666
+        host="127.0.0.1",
+        port=80
     )
