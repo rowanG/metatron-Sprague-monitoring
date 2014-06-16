@@ -61,7 +61,7 @@ def dashboards():
 
 @app.route('/dashboard/PCB', methods=['GET'])
 def dashboard_PCB():
-    app.jinja_env.autoescape = False    # Allows for pure HTML escape characters
+    app.jinja_env.autoescape = False
 
     # start of tiles, atomic tile height, width and offsets between tiles
     # Note: these are percentages of the total width and height of the html body
@@ -99,21 +99,21 @@ def dashboard_PCB():
         currentPos = 0
         typeDict = {}
         for x in result:
-            if x[2] in typeDict:    # Check if a description has been placed in Dict before, to prevent showing doubles
+            if x[2] in typeDict:
                 z = x[2]
-                typeDict[z] = typeDict[z] + 1   # Add +1 to the count for this description
+                typeDict[z] = typeDict[z] + 1
             else:
                 z = x[2]
-                typeDict[z] = 1     # Add description to dictionary, and add 1 to it's counter
+                typeDict[z] = 1
 
         
-        sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1)) # Change list of tuples to dictionary
-        sorted_x.reverse()  # Reverse order of list showing most items first
-        sorted_x = OrderedDict(sorted_x)    # Keep original order of dictionary
+        sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1))
+        sorted_x.reverse()
+        sorted_x = OrderedDict(sorted_x)
         for j in sorted_x:
             print j
             if t < 3:
-                table.add_row([str(j), typeDict[j]]) # Add to the table
+                table.add_row([str(j), typeDict[j]])
                 t += 1
             else:
                 break
@@ -134,7 +134,7 @@ def dashboard_PCB():
         print result
         for x in result:
             if t <= 2:
-                table.add_row([x[1], x[6]]) # Add top three results to table
+                table.add_row([x[1], x[6]])
                 t += 1
             else:
                 break
@@ -148,10 +148,10 @@ def dashboard_PCB():
         """
         table = PrettyTable(['Commodity', 'Used', 'DOA'], border=True)
         for x in result:
-            if x[0] == 'HEAD':  # Do not include 'HEAD' as a result
+            if x[0] == 'HEAD':
                 pass
             else:
-                table.add_row([x[0], x[1], x[2]])   # Add to the table
+                table.add_row([x[0], x[1], x[2]])
         print table.get_html_string(attributes={"size":"50px", "class":"DOA", "background-color":"green"})
 
         return table.get_html_string(attributes={"size":"10px", "class":"DOA", "bgcolor":"#61ABFF", "cellpadding":"5"})
@@ -164,7 +164,7 @@ def dashboard_PCB():
         """
         table = PrettyTable(['Commodity', 'Used', 'DOA'], border= True)
         for x in result:
-            table.add_row([x[0], x[1], x[2]])   # Add to the table
+            table.add_row([x[0], x[1], x[2]])
         return table.get_html_string(attributes={"size":"10px", "class":"DOAHead", "border":"1"})
 
     def connect(storedProcedure):
@@ -172,17 +172,18 @@ def dashboard_PCB():
         Run a stored procedure from the database
         Parameter:
         storedProcedure - name of Stored Procedure within the database
+        Please keep an eye on the driver (SQL Server Native Client 11.0)
         """
-        conn_string = "Driver={ODBC Driver 11 for SQL Server};Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
-        db = pyodbc.connect(conn_string)    # Set up connection with the database
-        c = db.cursor()             # Allocate the cursor
-        proc = str(storedProcedure)     # Create variable of stored procedure given
+        conn_string = "Driver={SQL Server Native Client 11.0};DSN=DC01;Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
+        db = pyodbc.connect(conn_string)
+        c = db.cursor()
+        proc = str(storedProcedure)
         try:
-            fuz = c.execute("exec %s" % proc)   # Run MS SQL query on the stored procedure
-            fuzzy = c.fetchall()        # Take all results in a tuple ready to pass to function
+            fuz = c.execute("exec %s" % proc)
+            fuzzy = c.fetchall()
         except Exception, e:
-            fuzzy = e               # If an error occurs, give this as the result to display
-        return fuzzy                # Return the result
+            fuzzy = e
+        return fuzzy
 
     currentTime = datetime.datetime.now().strftime("%H:%M")
     
@@ -811,6 +812,6 @@ def clients():
 if __name__ == '__main__':
     app.run(
         debug=True,
-        host="127.0.0.1",
-        port=80
+        host="192.168.0.216",
+        port=666
     )
