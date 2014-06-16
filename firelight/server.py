@@ -167,6 +167,31 @@ def dashboard_PCB():
             table.add_row([x[0], x[1], x[2]])
         return table.get_html_string(attributes={"size":"10px", "class":"DOAHead", "border":"1"})
 
+    def repairedTodayNum(result):
+        """
+        Create one large number to be displayed as a count
+        for the amount of S-numbers repaired today
+        """
+        print result
+        return result[0][0]
+        
+
+    def runQuery(query):
+        """
+        Run a query from the database
+        Parameter:
+        query - Query to be ran
+        """
+        conn_string = "Driver={SQL Server Native Client 11.0};DSN=DC01;Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
+        db = pyodbc.connect(conn_string)
+        c = db.cursor()
+        try:
+            qr = c.execute(query)
+            qry = c.fetchall()
+        except Exception, e:
+            qry = e
+        return qry
+
     def connect(storedProcedure):
         """
         Run a stored procedure from the database
@@ -188,7 +213,8 @@ def dashboard_PCB():
     currentTime = datetime.datetime.now().strftime("%H:%M")
     
     # Create a list of procedures to be carried out, these can be called upon
-    procedure = [connect('sp_dash_overdue_wo'), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_com_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days'))]
+    repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
+    procedure = [connect('sp_dash_overdue_wo'), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_com_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), repairedTodayNum(runQuery(repairedToday))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
@@ -306,7 +332,7 @@ def dashboard_PCB():
             'head': 'WOs Closed',
             'content1': [
                 '',
-                '',
+                '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[5],
                 ''
             ],
             'content2': [],
