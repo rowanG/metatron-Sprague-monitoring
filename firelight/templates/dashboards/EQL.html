@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="refresh" content="30">
+	<title>Equallogic hard drive test monitoring by Rowan Goemans</title>
+<style>
+
+html {
+	background-color: black;
+}
+
+html, body {
+    height: 99%;
+    width: 99%;
+}
+
+table {
+	width: 99%;
+	padding-top: 5%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.client {
+    font-family: "Segoe UI 8", Segoe UI 8, Segoe UI 8;
+    font-size:130%;
+    font-weight:bold;
+    color: white;
+    padding-top: 5px;
+}
+
+.content {
+	font-family: Calibri, sans-serif
+	padding-top=2%;
+	font-size:120%;
+	color: white;
+}
+
+.sync {
+	position: absolute;
+	height: 4.5%;
+    width: 20%;
+    top: 3.5%;
+    left: 5.5%;
+}
+
+{% for tile in tiles: %}
+.{{ tile['class'] }} {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    top: {{ tile['posy'] }}%;
+    left: {{ tile['posx'] }}%;
+    height: {{ tile['height'] }}%;
+    width: {{ tile['width'] }}%;
+	font-size:100%;
+	
+}
+{% endfor %}
+
+.green_tile {
+    /*border-style: outset;*/
+    /*border-color: #17E35F;*/
+    /*border-width: 2px;*/
+    /*background: rgba(191,255,0,0.55);*/
+    background: -moz-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(191,255,0,0.55)), color-stop(100%, rgba(97,173,26,0.55)));
+    background-color: #01A204;
+	/*background: -webkit-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: -o-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: -ms-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: radial-gradient(ellipse at center, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfff00', endColorstr='#61ad1a', GradientType=1 );*/
+}
+
+.red_tile {
+    /*border-style: outset;
+    border-color: #e36464;
+    border-width: 2px;*/
+    /*background: rgba(245,110,110,0.55);*/
+	background-color: #DB562D;
+    /*background: -moz-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
+    /*background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(245,110,110,0.55)), color-stop(41%, rgba(255,92,92,0.55)), color-stop(100%, rgba(255,13,13,0.55)));*/
+    /*background: -webkit-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
+    /*background: -o-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
+    /*background: -ms-linear-gradient(-45deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
+    /*background: linear-gradient(135deg, rgba(245,110,110,0.55) 0%, rgba(255,92,92,0.55) 41%, rgba(255,13,13,0.55) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f56e6e', endColorstr='#ff0d0d', GradientType=1 );*/
+}
+
+.blue_tile {
+    /*border-style: outset;
+    border-color: #93b4c9;
+    border-width: 2px;*/
+	background-color: #2E8AF1;
+    /*background: rgba(227,249,255,0.55);*/
+    /*background: -moz-radial-gradient(center, ellipse cover, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
+    /*background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(227,249,255,0.55)), color-stop(100%, rgba(67,131,173,0.55)));*/
+    /*background: -webkit-radial-gradient(center, ellipse cover, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
+    /*background: -o-radial-gradient(center, ellipse cover, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
+    /*background: -ms-radial-gradient(center, ellipse cover, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
+    /*background: radial-gradient(ellipse at center, rgba(227,249,255,0.55) 0%, rgba(67,131,173,0.55) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f9ff', endColorstr='#4383ad', GradientType=1 );*/
+}
+
+.yellow_tile {
+    /*border-style: outset;
+    border-color: #f6ff73;
+    border-width: 2px;    /*background: rgba(238,255,0,0.55);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(238,255,0,0.55)), color-stop(100%, rgba(255,204,0,0.55)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
+    background: radial-gradient(ellipse at center, rgba(238,255,0,0.55) 0%, rgba(255,204,0,0.55) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeff00', endColorstr='#ffcc00', GradientType=1 );*/
+	background-color: #F3B22E;
+	
+}
+
+.purple_tile {
+    /*border-style: outset;
+    border-color: #c681db;*
+    /*border-width: 2px;*/
+    /*background: rgba(204,123,224,0.55);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(204,123,224,0.55)), color-stop(2%, rgba(202,121,225,0.55)), color-stop(100%, rgba(119,0,255,0.55)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
+    background: radial-gradient(ellipse at center, rgba(204,123,224,0.55) 0%, rgba(202,121,225,0.55) 2%, rgba(119,0,255,0.55) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7be0', endColorstr='#7700ff', GradientType=1 );*/
+	background-color: #A401AA;
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="sync blue_tile client" align="center">
+EqualLogic disk test monitoring
+</div>
+
+{% for tile in tiles: %}
+<div class="{{ tile['class'] }} {{ tile['type'] }}">
+
+    <div class="client" align="center">
+    {{ tile['client'] }}
+    </div>
+
+    <div class="content">
+
+    <table>
+	<tr>
+  	<td>test: </td>
+  	<td align="right">{{ tile['test'] }}</td>		
+	</tr>
+	<tr>
+  	<td>status: </td>
+  	<td align="right">{{ tile['state'] }}</td>		
+	</tr>
+	<tr>
+  	<td>time: </td>
+  	<td align="right"> {{ tile['time'] }}</td>		
+	</tr>
+	</table>
+
+	</div>
+    
+</div>
+{%  endfor %}
+</body>
