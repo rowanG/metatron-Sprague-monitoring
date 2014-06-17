@@ -192,6 +192,9 @@ def dashboard_PCB():
             qry = e
         return qry
 
+    def funPic():
+        pass
+
     def connect(storedProcedure):
         """
         Run a stored procedure from the database
@@ -211,6 +214,11 @@ def dashboard_PCB():
         return fuzzy
 
     currentTime = datetime.datetime.now().strftime("%H:%M")
+    if str(currentTime) == '17:00':
+        funPic()
+        print "It's five!"
+    else:
+        pass
     
     # Create a list of procedures to be carried out, these can be called upon
     repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
