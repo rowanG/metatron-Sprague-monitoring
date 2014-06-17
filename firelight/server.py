@@ -88,6 +88,9 @@ def dashboard_PCB():
         for x in result:
             return str(x[0])
 
+    def woOpenDef(result):
+        return str(x[0][0])
+
     def onHold(result):
         """
         Creates a table of the top 5 on hold workorders.
@@ -134,7 +137,7 @@ def dashboard_PCB():
         print result
         for x in result:
             if t <= 2:
-                table.add_row([x[1], x[6]])
+                table.add_row([x[1], x[7]])
                 t += 1
             else:
                 break
@@ -167,6 +170,40 @@ def dashboard_PCB():
             table.add_row([x[0], x[1], x[2]])
         return table.get_html_string(attributes={"size":"10px", "class":"DOAHead", "border":"1"})
 
+    def repairedTodayNum(result):
+        """
+        Create one large number to be displayed as a count
+        for the amount of S-numbers repaired today
+        """
+        print result
+        return result[0][0]
+
+    def woOverdueDisp(result):
+        return result
+
+    def openWO(result):
+        return result[0][0]
+        
+
+    def runQuery(query):
+        """
+        Run a query from the database
+        Parameter:
+        query - Query to be ran
+        """
+        conn_string = "Driver={SQL Server Native Client 11.0};DSN=DC01;Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
+        db = pyodbc.connect(conn_string)
+        c = db.cursor()
+        try:
+            qr = c.execute(query)
+            qry = c.fetchall()
+        except Exception, e:
+            qry = e
+        return qry
+
+    def funPic():
+        pass
+
     def connect(storedProcedure):
         """
         Run a stored procedure from the database
@@ -186,9 +223,18 @@ def dashboard_PCB():
         return fuzzy
 
     currentTime = datetime.datetime.now().strftime("%H:%M")
+    if str(currentTime) == '17:00':
+        funPic()
+        print "It's five!"
+    else:
+        pass
     
     # Create a list of procedures to be carried out, these can be called upon
-    procedure = [connect('sp_dash_overdue_wo'), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_com_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days'))]
+    woOverdue = "SELECT rp.received_wo 'WO in' FROM tbl_rmaproducts_generic AS rp, tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus WHERE rp.swapgroup_id NOT IN (5,8,13,12,17,18) AND rma.klant_id not in (178,179,213,306) AND rp.received_wo IS NOT NULL and part.category IN ('DRIVE','LOADER','LIBRARY') AND rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND part.category IN ('PCB', 'PSU','HEAD','DECK') AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id NOT IN (447) AND dbo.GetWorkingDays(rma.receivedate,CONVERT(DATE, GETDATE())) <= 6"
+    woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
+    repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
+    sRepairedToday = "SELECT COUNT(*) FROM tbl_component_location AS cl JOIN tbl_component AS co ON cl.component_id = co.id WHERE CONVERT(DATE, cl.entrancetime) = CONVERT(DATE, GETDATE()) AND co.[status] = 'GOOD' AND cl.location_id = 26"
+    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_components_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), repairedTodayNum(runQuery(repairedToday)), openWO(runQuery(woOpen)), repairedTodayNum(runQuery(sRepairedToday))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
@@ -306,7 +352,7 @@ def dashboard_PCB():
             'head': 'WOs Closed',
             'content1': [
                 '',
-                '',
+                '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[5],
                 ''
             ],
             'content2': [],
@@ -322,10 +368,10 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': 'WOs OVERDUE',
+            'head': 'S# Availability',
             'content1': [
                 '',
-                '<span style="font-size:6em;vertical-align:center;">%s</span>' % len(procedure[0]),
+                '<span style="font-size:6em;vertical-align:center;"></span>',
                 ''
             ],
             'content2': []
@@ -341,7 +387,7 @@ def dashboard_PCB():
             'head': 'WOs Due',
             'content1': [
                 '',
-                '',
+                '<span style="font-size:6em;vertical-align:center;">%s</span>' % len(procedure[0]),
                 ''
             ],
             'content2': []
@@ -357,7 +403,7 @@ def dashboard_PCB():
             'head': 'WOs Open',
             'content1': [
                 '',
-                '',
+                '<span style="font-size:4em;vertical-align:center;">%s</span>' % procedure[6],
                 ''
             ],
             'content2': []
@@ -413,7 +459,7 @@ def dashboard_PCB():
             'head': 'S# Repaired Today',
             'content1': [
                 '',
-                '',
+                '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[7],
                 ''
             ],
             'content2': [
