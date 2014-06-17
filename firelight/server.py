@@ -354,6 +354,6 @@ def index():
 if __name__ == '__main__':
     app.run(
         debug=True,
-        host="192.168.0.216",
+        host="127.0.0.1",
         port=666
     )
