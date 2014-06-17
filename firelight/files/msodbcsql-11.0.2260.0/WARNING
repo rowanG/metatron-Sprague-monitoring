@@ -1,0 +1,20 @@
+In order to use the Microsoft ODBC Driver 11 for SQL Server on Linux,
+the unixODBC DriverManager must be installed on your computer.  unixODBC
+DriverManager is a third-party tool made available by the unixODBC Project.
+To assist you in the installation process, this script will attempt to 
+download, properly configure, and build the unixODBC DriverManager from 
+http://www.unixodbc.org/ for use with 
+Microsoft ODBC Driver 11 for SQL Server on Linux.
+
+Alternatively, you can choose to download and configure unixODBC
+DriverManager from http://www.unixodbc.org/ yourself.
+
+Note: unixODBC DriverManager is licensed to you under the terms of an
+agreement between you and the unixODBC Project, not Microsoft.  Microsoft
+does not guarantee the unixODBC DriverManager or grant any rights to
+you.  Prior to downloading, you should review the license for unixODBC
+DriverManager at http://www.unixodbc.org/.
+
+The script is provided as a convenience to you as-is, without any express
+or implied warranties of any kind.  Microsoft is not liable for any issues
+arising out of your use of the script.
