@@ -141,7 +141,7 @@ def dashboard_PCB():
                 t += 1
             else:
                 break
-        return table.get_html_string(attributes={"size":"50px", "class":"InvShortage", "bgcolor":"#08D00C", "cellpadding":"5", "align":"center"})
+        return table.get_html_string(attributes={"table align":"center", "size":"50px", "class":"InvShortage", "bgcolor":"#08D00C", "cellpadding":"5", "align":"center"})
 
     def DOA(result):
         """
@@ -258,6 +258,11 @@ def dashboard_PCB():
             'width': str(27)
         },
 
+        'header': {
+            'height': str(7),
+            'width': str(60) 
+        },
+
         'half_rect':{
             'height': str(3 * tile_height + 7 * tile_offset_y),
             'width': str(2 * tile_width + 6 * tile_offset_x)
@@ -332,6 +337,24 @@ def dashboard_PCB():
             'height': tile_sizes['sync_idea']['height'],
             'width': tile_sizes['sync_idea']['width'],
             'head': 'Components - Last refresh: %s' % currentTime,
+            'content1': [
+                '',
+                '',
+                ''
+            ],
+            'content2': [
+                ''
+            ]
+        },
+
+        {
+            'class': 'header',
+            'type': 'black_tile',
+            'posx': str(39),
+            'posy': str(1),
+            'height': tile_sizes['header']['height'],
+            'width': tile_sizes['header']['width'],
+            'head': 'SPRAGUE EUROPE - SCARAMANGA',
             'content1': [
                 '',
                 '',
