@@ -120,8 +120,8 @@ def dashboard_PCB():
                 t += 1
             else:
                 break
-
-        return table.get_html_string(attributes={"text-align":"center","size":"100%", "class":"Onhold", "bgcolor":"#FF7449"})
+        #, "bgcolor":"#FF7449"
+        return table.get_html_string(attributes={"text-align":"center","size":"100%", "class":"Onhold"})
         #return table.get_html_string(attributes={"size":"100%", "class":"Onhold", "bgcolor":"#FF7449"}) # Return HTML table
 
 
@@ -141,7 +141,8 @@ def dashboard_PCB():
                 t += 1
             else:
                 break
-        return table.get_html_string(attributes={"table align":"center", "size":"50px", "class":"InvShortage", "bgcolor":"#08D00C", "cellpadding":"5", "align":"center"})
+        #, "bgcolor":"#08D00C"
+        return table.get_html_string(attributes={"table align":"left", "col width":"130", "td width":"100%", "size":"50px", "class":"InvShortage", "cellpadding":"5", "align":"center"})
 
     def DOA(result):
         """
@@ -156,8 +157,8 @@ def dashboard_PCB():
             else:
                 table.add_row([x[0], x[1], x[2]])
         print table.get_html_string(attributes={"size":"50px", "class":"DOA", "background-color":"green"})
-
-        return table.get_html_string(attributes={"size":"10px", "class":"DOA", "bgcolor":"#61ABFF", "cellpadding":"5"})
+        #"bgcolor":"#61ABFF"
+        return table.get_html_string(attributes={"size":"10px", "class":"DOA", "cellpadding":"5"})
 
     def doaHead(result):
         """
@@ -204,6 +205,16 @@ def dashboard_PCB():
     def funPic():
         pass
 
+    def SAvailability(result):
+        shipped = result[0][0]
+        onhold = result[0][1]
+
+        percentWO = 100 / int(shipped)
+        percentOnHold = percentWO * int(onhold)
+        total = str(int(math.floor(100 - percentOnHold)))
+    
+        return total
+
     def connect(storedProcedure):
         """
         Run a stored procedure from the database
@@ -228,13 +239,20 @@ def dashboard_PCB():
         print "It's five!"
     else:
         pass
+
+    def weekCalc():
+        currentWeek = (datetime.date.today().isocalendar()[1])
+        print "Week: %s " % currentWeek
+
+        return currentWeek
     
     # Create a list of procedures to be carried out, these can be called upon
-    woOverdue = "SELECT rp.received_wo 'WO in' FROM tbl_rmaproducts_generic AS rp, tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus WHERE rp.swapgroup_id NOT IN (5,8,13,12,17,18) AND rma.klant_id not in (178,179,213,306) AND rp.received_wo IS NOT NULL and part.category IN ('DRIVE','LOADER','LIBRARY') AND rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND part.category IN ('PCB', 'PSU','HEAD','DECK') AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id NOT IN (447) AND dbo.GetWorkingDays(rma.receivedate,CONVERT(DATE, GETDATE())) <= 6"
+    sAvail = "exec sp_com_part_availability @week='%s'" % weekCalc()
+    woOverdue = "SELECT rp.received_wo 'WO in' FROM tbl_rmaproducts_generic AS rp, tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus WHERE rp.swapgroup_id NOT IN (5,8,13,12,17,18) AND rma.klant_id not in (178,179,213,306) AND rp.received_wo IS NOT NULL and part.category IN ('DRIVE','LOADER','LIBRARY') AND rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND part.category IN ('PCB', 'PSU','DECK') AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id NOT IN (447) AND dbo.GetWorkingDays(rma.receivedate,CONVERT(DATE, GETDATE())) <= 6"
     woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
     repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
     sRepairedToday = "SELECT COUNT(*) FROM tbl_component_location AS cl JOIN tbl_component AS co ON cl.component_id = co.id WHERE CONVERT(DATE, cl.entrancetime) = CONVERT(DATE, GETDATE()) AND co.[status] = 'GOOD' AND cl.location_id = 26"
-    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_components_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), repairedTodayNum(runQuery(repairedToday)), openWO(runQuery(woOpen)), repairedTodayNum(runQuery(sRepairedToday))]
+    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_components_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), repairedTodayNum(runQuery(repairedToday)), openWO(runQuery(woOpen)), repairedTodayNum(runQuery(sRepairedToday)), SAvailability(runQuery(sAvail))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
@@ -318,14 +336,14 @@ def dashboard_PCB():
             'posy': str(gety(2)),
             'height': tile_sizes['big_square']['height'],
             'width': tile_sizes['big_square']['width'],
-            'head': 'On Hold',
+            'head': '<font size="6">On Hold</font>',
             'content1': [
-                '',
+                '<h3><em>%s</em></h3>' % procedure[1],
                 '',
                 ''
             ],
             'content2': [
-                '<h3><em>%s</em></h3>' % procedure[1]
+                ''
             ]
         },
 
@@ -354,7 +372,7 @@ def dashboard_PCB():
             'posy': str(1),
             'height': tile_sizes['header']['height'],
             'width': tile_sizes['header']['width'],
-            'head': 'SPRAGUE EUROPE - SCARAMANGA',
+            'head': '<font size="6">SCARAMANGA</font>',
             'content1': [
                 '',
                 '',
@@ -372,7 +390,7 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': 'WOs Closed',
+            'head': '<font size="5">WOs Closed</font>',
             'content1': [
                 '',
                 '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[5],
@@ -391,10 +409,10 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': 'S# Availability',
+            'head': '<font size="5">S# Avail. last 7d</font>',
             'content1': [
                 '',
-                '<span style="font-size:6em;vertical-align:center;"></span>',
+                '<span style="font-size:5em;vertical-align:center;">' + procedure[8] + '%</span>',
                 ''
             ],
             'content2': []
@@ -407,7 +425,7 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': 'WOs Due',
+            'head': '<font size="5">WOs Due</font>',
             'content1': [
                 '',
                 '<span style="font-size:6em;vertical-align:center;">%s</span>' % len(procedure[0]),
@@ -423,7 +441,7 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': 'WOs Open',
+            'head': '<font size="5">WOs Open</font>',
             'content1': [
                 '',
                 '<span style="font-size:4em;vertical-align:center;">%s</span>' % procedure[6],
@@ -440,7 +458,7 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['half_rect']['height'],
             'width': tile_sizes['half_rect']['width'],
-            'head': 'Last 7 days Reported DOA',
+            'head': '<font size="5">Last 7 days Reported DOA</font>',
             'content1': [
                 '<h2>%s</h2>' % procedure[3],
                 '',
@@ -460,7 +478,7 @@ def dashboard_PCB():
             'posy': str(gety(2)),
             'height': tile_sizes['big_square']['height'],
             'width': tile_sizes['big_square']['width'],
-            'head': 'Inventory Shortage (Top 3)',
+            'head': '<font size="6">Inventory Shortage (Top 3)</font>',
             'content1': [
                 '<h2>%s</h2>' % procedure[2],
                 '',
@@ -479,7 +497,7 @@ def dashboard_PCB():
             'posy': str(62),
             'height': tile_sizes['tiny_rect']['height'],
             'width': tile_sizes['tiny_rect']['width'],
-            'head': 'S# Repaired Today',
+            'head': '<font size="6">S# Repaired Today</font>',
             'content1': [
                 '',
                 '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[7],
