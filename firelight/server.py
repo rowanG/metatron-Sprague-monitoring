@@ -246,7 +246,7 @@ def dashboard_PCB():
 
         return currentWeek
     
-    # Create a list of procedures to be carried out, these can be called upon
+    # Create a list of procedures to be carried out, these can be called upon .
     sAvail = "exec sp_com_part_availability @week='%s'" % weekCalc()
     woOverdue = "SELECT rp.received_wo 'WO in' FROM tbl_rmaproducts_generic AS rp, tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus WHERE rp.swapgroup_id NOT IN (5,8,13,12,17,18) AND rma.klant_id not in (178,179,213,306) AND rp.received_wo IS NOT NULL and part.category IN ('DRIVE','LOADER','LIBRARY') AND rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND part.category IN ('PCB', 'PSU','DECK') AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id NOT IN (447) AND dbo.GetWorkingDays(rma.receivedate,CONVERT(DATE, GETDATE())) <= 6"
     woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
