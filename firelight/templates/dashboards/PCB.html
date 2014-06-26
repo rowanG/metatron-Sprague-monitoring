@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<meta http-equiv="refresh" content="30" >
+<meta http-equiv="refresh" content="180" >
 <style>
 
 html {
@@ -110,6 +110,45 @@ ul {
 	
 }
 {% endfor %}
+
+.InvShortage td + td{
+text-align: center
+}
+
+.InvShortage td{
+text-align: left
+}
+
+.DOA td + td{
+text-align: center
+}
+
+.DOA td{
+text-align: left
+}
+
+.Onhold td + td{
+text-align: center
+}
+
+.Onhold td{
+text-align: left
+}
+
+.black_tile {
+    /*border-style: outset;*/
+    /*border-color: #17E35F;*/
+    /*border-width: 2px;*/
+    /*background: rgba(191,255,0,0.55);*/
+    background: -moz-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(191,255,0,0.55)), color-stop(100%, rgba(97,173,26,0.55)));
+    background-color: #000000;
+	/*background: -webkit-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: -o-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: -ms-radial-gradient(center, ellipse cover, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*background: radial-gradient(ellipse at center, rgba(191,255,0,0.55) 0%, rgba(97,173,26,0.55) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfff00', endColorstr='#61ad1a', GradientType=1 );*/
+}
 
 .green_tile {
     /*border-style: outset;*/
