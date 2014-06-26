@@ -6,6 +6,7 @@ import redis
 import math
 import db
 import pyodbc
+import _mssql
 from prettytable import PrettyTable
 import cgi
 import requests
@@ -192,9 +193,13 @@ def dashboard_PCB():
         Parameter:
         query - Query to be ran
         """
-        conn_string = "Driver={SQL Server Native Client 11.0};DSN=DC01;Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
-        db = pyodbc.connect(conn_string)
-        c = db.cursor()
+        dsn = 'oddjob'
+        user = 'dbuser'
+        password = 'cocacola'
+        database = 'oddjob'
+        con_string = 'DSN=%s;UID=%s;PWD=%s;DATABASE=%s;' % (dsn, user, password, database)
+        cnxn = pyodbc.connect(con_string)
+        c = cnxn.cursor()
         try:
             qr = c.execute(query)
             qry = c.fetchall()
@@ -222,9 +227,13 @@ def dashboard_PCB():
         storedProcedure - name of Stored Procedure within the database
         Please keep an eye on the driver (SQL Server Native Client 11.0)
         """
-        conn_string = "Driver={SQL Server Native Client 11.0};DSN=DC01;Server=DC01\MSSQL2008;Database=oddjob;UID=dbuser;PWD=cocacola"
-        db = pyodbc.connect(conn_string)
-        c = db.cursor()
+        dsn = 'oddjob'
+        user = 'dbuser'
+        password = 'cocacola'
+        database = 'oddjob'
+        con_string = 'DSN=%s;UID=%s;PWD=%s;DATABASE=%s;' % (dsn, user, password, database)
+        cnxn = pyodbc.connect(con_string)
+        c = cnxn.cursor()
         proc = str(storedProcedure)
         try:
             fuz = c.execute("exec %s" % proc)
@@ -899,6 +908,6 @@ def clients():
 if __name__ == '__main__':
     app.run(
         debug=True,
-        host="127.0.0.1",
-        port=666
+        host="192.168.0.212",
+        port=667
     )
