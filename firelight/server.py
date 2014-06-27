@@ -92,38 +92,48 @@ def dashboard_PCB():
     def woOpenDef(result):
         return str(x[0][0])
 
+    def openComponents(result):
+	final = len(result)
+	return final
+
     def onHold(result):
         """
-        Creates a table of the top 5 on hold workorders.
-        Parameter:
-        result - tuple return from Stored Procedure
-        """
-        table = PrettyTable(['Workorder', 'Description'])
+	Creates a table of the top 5 on hold workorders.
+	Parameter:
+	result - tuple return from Stored Procedure
+	"""
+        table = PrettyTable(['On hold for part', 'Quantity'])
         t = 0
         currentPos = 0
         typeDict = {}
-        for x in result:
+        """
+	for x in result:
             if x[2] in typeDict:
                 z = x[2]
                 typeDict[z] = typeDict[z] + 1
             else:
                 z = x[2]
                 typeDict[z] = 1
-
-        
+	"""
+	for x in result:
+	    table.add_row([x[0], x[1]])
+        """
         sorted_x = sorted(typeDict.iteritems(), key=operator.itemgetter(1))
         sorted_x.reverse()
         sorted_x = OrderedDict(sorted_x)
         for j in sorted_x:
             print j
             if t < 3:
-                table.add_row([str(j), typeDict[j]])
+                #table.add_row([str(j), typeDict[j]])
+		table.add_row([result[0], result[1]])
                 t += 1
             else:
                 break
+        """
         #, "bgcolor":"#FF7449"
         return table.get_html_string(attributes={"text-align":"center","size":"100%", "class":"Onhold"})
         #return table.get_html_string(attributes={"size":"100%", "class":"Onhold", "bgcolor":"#FF7449"}) # Return HTML table
+
 
 
     def threeColumn(result):
@@ -135,7 +145,6 @@ def dashboard_PCB():
         table = PrettyTable(['Description', 'Shortage'], border=True)
         t = 0
         table.border == True
-        print result
         for x in result:
             if t <= 2:
                 table.add_row([x[1], x[7]])
@@ -177,7 +186,6 @@ def dashboard_PCB():
         Create one large number to be displayed as a count
         for the amount of S-numbers repaired today
         """
-        print result
         return result[0][0]
 
     def woOverdueDisp(result):
@@ -209,6 +217,17 @@ def dashboard_PCB():
 
     def funPic():
         pass
+
+    def onFloor(result):
+	a = []
+	componentUsers = ['mirsad', 'mohamed', 'omid', 'pawel', 'caroline', 'hayder', 'shahram', 'ineke', 'shahram']
+	final = 0
+	for i in result:
+	    a.append(str(i[0]))
+	for x in a:
+	    if x in componentUsers:
+	        final += 1
+	return final
 
     def SAvailability(result):
         shipped = result[0][0]
@@ -249,6 +268,9 @@ def dashboard_PCB():
     else:
         pass
 
+    def repaired2Day(storedProcedure):
+	return storedProcedure[0][0]
+
     def weekCalc():
         currentWeek = (datetime.date.today().isocalendar()[1])
         print "Week: %s " % currentWeek
@@ -261,7 +283,7 @@ def dashboard_PCB():
     woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
     repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
     sRepairedToday = "SELECT COUNT(*) FROM tbl_component_location AS cl JOIN tbl_component AS co ON cl.component_id = co.id WHERE CONVERT(DATE, cl.entrancetime) = CONVERT(DATE, GETDATE()) AND co.[status] = 'GOOD' AND cl.location_id = 26"
-    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_components_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), repairedTodayNum(runQuery(repairedToday)), openWO(runQuery(woOpen)), repairedTodayNum(runQuery(sRepairedToday)), SAvailability(runQuery(sAvail))]
+    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_components_inventory_shortage')), DOA(connect('sp_tiles_components_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), onFloor(connect('sp_tiles_components_closed5')), openComponents(connect('sp_tiles_components_wo_open')), repaired2Day(connect('sp_tiles_components_repaired_today')), SAvailability(runQuery(sAvail))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
@@ -381,7 +403,7 @@ def dashboard_PCB():
             'posy': str(1),
             'height': tile_sizes['header']['height'],
             'width': tile_sizes['header']['width'],
-            'head': '<font size="6">SCARAMANGA</font>',
+            'head': '<font size = "6" color="red">SCARAMANGA</font>',
             'content1': [
                 '',
                 '',
@@ -399,7 +421,7 @@ def dashboard_PCB():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': '<font size="5">WOs Closed</font>',
+            'head': '<font size="5">S# On Floor > 5d</font>',
             'content1': [
                 '',
                 '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[5],
