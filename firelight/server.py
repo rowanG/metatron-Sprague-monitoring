@@ -109,27 +109,19 @@ def dashboard_PCB():
         typeDict = {}
         resultEmpty = 0
         final = []
-
+	#tempSplitList = []
         for x in result:
             tempSplitList = []
             noHead = False
-        for t in x:
-            t = str(t)
-            tempVar = t.split()
-            tempSplitList.append(tempVar)
-            try:
-                if 'HEAD' in tempSplitList[0]:
-                    print "found head"
-                    pass
-                else:
-                    noHead = True
-                    resultEmpty += 1
-            except:
-                pass
-        if noHead == True:
-            table.add_row([x[0], x[1]])
-        else:
-            pass
+            varTitle = x[0].split()
+	    if 'HEAD' in varTitle:
+	        pass
+	    else:
+		resultEmpty += 1
+		part = str(x[0])
+		amount = str(x[1])
+		print part, amount
+		table.add_row([part,amount])
         #, "bgcolor":"#FF7449"
     	if resultEmpty == 0:
        	    happyString = "0"
