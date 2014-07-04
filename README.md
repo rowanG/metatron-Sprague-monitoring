@@ -1,5 +1,11 @@
 Scaramanga
 ==========
+DEVELOPMENT BRANCH
+==================
+This branch is not intended to be used as a place to pull Scaramanga.
+Untested and fixes (which are not completed) may be placed here. For
+a stable version, please check the Master branch
+
 
 Please note: This is a fork from the Metatron Sprague Monitoring project.
 Whilst I was lead developer on that project, this fork ensures the latest
