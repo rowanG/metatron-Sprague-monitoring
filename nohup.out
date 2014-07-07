@@ -1,0 +1,8923 @@
+ * Running on http://192.168.0.212:667/
+ * Restarting with reloader
+192.168.0.128 - - [26/Jun/2014 17:07:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:07:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:07:48] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:07:49] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:11:02] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:11:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:14:15] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:14:15] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:17:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:17:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:20:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:20:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:23:55] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:23:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:27:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:27:08] "GET /favicon.ico HTTP/1.1" 404 -
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    192.168.0.128 - - [26/Jun/2014 17:30:21] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:30:21] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:33:34] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:33:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:36:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:36:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:39:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:40:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:43:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:43:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:46:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:46:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:49:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:49:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:52:52] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:52:53] "GET /favicon.ico HTTP/1.1" 404 -
+<tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table192.168.0.128 - - [26/Jun/2014 17:56:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:56:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 17:59:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 17:59:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:02:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:02:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:05:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:05:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:08:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:08:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:12:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:12:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:15:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:15:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:18:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:18:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:21:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:21:53] "GET /favicon.ico HTTP/1.1" 404 -
+>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+  192.168.0.128 - - [26/Jun/2014 18:25:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:25:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:28:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:28:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:31:33] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:31:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:34:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:34:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:37:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:38:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:41:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:41:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:44:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:44:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:47:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:47:40] "GET /favicon.ico HTTP/1.1" 404 -
+  <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</tab192.168.0.128 - - [26/Jun/2014 18:50:52] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:50:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:54:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:54:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 18:57:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 18:57:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:00:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:00:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:03:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:03:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:06:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:07:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:10:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:10:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:13:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:13:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:16:40] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:16:40] "GET /favicon.ico HTTP/1.1" 404 -
+le>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+192.168.0.128 - - [26/Jun/2014 19:19:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:19:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:23:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:23:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:26:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:26:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:29:33] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:29:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:32:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:32:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:35:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:36:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:39:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:39:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:42:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:42:26] "GET /favicon.ico HTTP/1.1" 404 -
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</t192.168.0.128 - - [26/Jun/2014 19:45:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:45:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:48:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:48:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:52:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:52:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:55:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:55:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 19:58:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 19:58:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:01:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:01:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:04:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:04:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:08:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:08:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:11:25] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:11:26] "GET /favicon.ico HTTP/1.1" 404 -
+able>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr192.168.0.128 - - [26/Jun/2014 20:14:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:14:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:17:52] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:17:52] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:21:05] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:21:05] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:24:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:24:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:27:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:27:32] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:30:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:30:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:33:58] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:33:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:37:11] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:37:12] "GET /favicon.ico HTTP/1.1" 404 -
+>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+<192.168.0.128 - - [26/Jun/2014 20:40:24] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:40:25] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:43:37] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:43:38] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:46:51] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:46:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:50:04] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:50:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:53:17] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:53:18] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:56:30] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:56:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 20:59:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 20:59:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:02:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:02:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:06:09] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:06:10] "GET /favicon.ico HTTP/1.1" 404 -
+/table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </192.168.0.128 - - [26/Jun/2014 21:09:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:09:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:12:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:12:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:15:49] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:15:50] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:19:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:19:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:22:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:22:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:25:29] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:25:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:28:43] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:28:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:31:55] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:31:56] "GET /favicon.ico HTTP/1.1" 404 -
+tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>192.168.0.128 - - [26/Jun/2014 21:35:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:35:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:38:22] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:38:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:41:35] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:41:35] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:44:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:44:48] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:48:01] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:48:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:51:14] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:51:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:54:27] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:54:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 21:57:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 21:57:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:00:54] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:00:55] "GET /favicon.ico HTTP/1.1" 404 -
+
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    192.168.0.128 - - [26/Jun/2014 22:04:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:04:08] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:07:21] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:07:21] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:10:34] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:10:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:13:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:13:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:17:01] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:17:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:20:14] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:20:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:23:27] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:23:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:26:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:26:41] "GET /favicon.ico HTTP/1.1" 404 -
+</tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </t192.168.0.128 - - [26/Jun/2014 22:29:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:29:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:33:07] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:33:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:36:20] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:36:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:39:33] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:39:33] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:42:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:42:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:45:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:46:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:49:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:52:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:52:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 22:55:39] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:55:40] "GET /favicon.ico HTTP/1.1" 404 -
+r>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+  192.168.0.128 - - [26/Jun/2014 22:58:52] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 22:58:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:02:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:02:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:05:20] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:05:21] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:08:34] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:08:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:11:48] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:11:49] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:15:02] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:15:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:18:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:18:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:21:30] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:21:31] "GET /favicon.ico HTTP/1.1" 404 -
+  </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    <192.168.0.128 - - [26/Jun/2014 23:24:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:24:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:27:58] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:27:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:31:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:31:12] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:34:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:34:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:37:40] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:37:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:40:54] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:40:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:44:07] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:44:08] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:47:21] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:47:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:50:35] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:50:36] "GET /favicon.ico HTTP/1.1" 404 -
+/tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+192.168.0.128 - - [26/Jun/2014 23:53:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:53:50] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [26/Jun/2014 23:57:04] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [26/Jun/2014 23:57:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:00:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:00:18] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:03:31] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:03:32] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:06:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:06:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:09:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:10:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:13:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:13:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:16:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:16:28] "GET /favicon.ico HTTP/1.1" 404 -
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+   192.168.0.128 - - [27/Jun/2014 00:19:42] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:19:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:22:57] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:22:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:26:11] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:26:11] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:29:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:32:40] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:32:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:35:54] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:35:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:39:09] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:39:10] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:42:24] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:42:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:45:38] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:45:39] "GET /favicon.ico HTTP/1.1" 404 -
+ </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td192.168.0.128 - - [27/Jun/2014 00:48:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:48:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:52:07] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:52:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:55:22] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:55:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 00:58:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 00:58:37] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:01:51] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:01:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:05:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:05:08] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:08:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:08:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:11:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:11:37] "GET /favicon.ico HTTP/1.1" 404 -
+>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+ 192.168.0.128 - - [27/Jun/2014 01:14:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:14:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:18:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:18:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:22:33] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:22:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:26:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:26:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:31:51] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:31:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:37:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:37:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:42:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:42:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:47:29] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:47:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:50:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:50:44] "GET /favicon.ico HTTP/1.1" 404 -
+   </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</192.168.0.128 - - [27/Jun/2014 01:54:02] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:54:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 01:57:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 01:57:17] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:00:29] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:00:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:03:43] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:03:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:06:57] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:06:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:10:10] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:10:10] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:13:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:13:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:16:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:16:36] "GET /favicon.ico HTTP/1.1" 404 -
+td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>192.168.0.128 - - [27/Jun/2014 02:19:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:19:50] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:23:02] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:23:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:26:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:26:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:29:31] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:29:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:32:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:32:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:35:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:35:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:39:09] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:39:10] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:42:24] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:42:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:45:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:45:37] "GET /favicon.ico HTTP/1.1" 404 -
+
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0192.168.0.128 - - [27/Jun/2014 02:48:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:48:50] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:52:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:52:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:55:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:55:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 02:58:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 02:58:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:01:40] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:01:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:04:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:04:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:08:05] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:08:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:11:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:11:19] "GET /favicon.ico HTTP/1.1" 404 -
+</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</t192.168.0.128 - - [27/Jun/2014 03:14:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:14:32] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:17:46] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:17:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:21:00] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:21:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:24:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:24:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:27:30] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:27:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:30:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:30:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:33:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:33:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:37:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:37:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:40:31] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:40:31] "GET /favicon.ico HTTP/1.1" 404 -
+d>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td192.168.0.128 - - [27/Jun/2014 03:43:45] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:43:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:47:00] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:47:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:50:14] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:50:15] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:53:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:53:29] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:56:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:56:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 03:59:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 03:59:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:03:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:03:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:06:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:06:28] "GET /favicon.ico HTTP/1.1" 404 -
+>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0<192.168.0.128 - - [27/Jun/2014 04:09:42] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:09:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:12:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:12:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:16:10] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:16:10] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:19:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:19:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:22:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:22:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:25:48] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:25:49] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:29:01] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:29:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:32:13] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:32:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:35:26] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:35:26] "GET /favicon.ico HTTP/1.1" 404 -
+/td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <192.168.0.128 - - [27/Jun/2014 04:38:38] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:38:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:41:51] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:41:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:45:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:45:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:48:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:48:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:51:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:51:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:54:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:54:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 04:57:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 04:57:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:01:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:01:06] "GET /favicon.ico HTTP/1.1" 404 -
+td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>192.168.0.128 - - [27/Jun/2014 05:04:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:04:18] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:07:31] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:07:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:10:43] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:10:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:13:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:13:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:17:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:17:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:20:21] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:20:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:23:34] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:23:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:26:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:26:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:29:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:29:59] "GET /favicon.ico HTTP/1.1" 404 -
+0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+       192.168.0.128 - - [27/Jun/2014 05:33:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:33:12] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:36:24] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:36:25] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:39:37] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:39:37] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:42:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:42:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:46:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:46:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:49:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:49:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:52:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:52:29] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 05:55:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:55:41] "GET /favicon.ico HTTP/1.1" 404 -
+ <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <t192.168.0.128 - - [27/Jun/2014 05:58:54] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 05:58:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:02:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:02:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:05:19] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:05:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:08:32] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:08:32] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:11:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:11:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:14:57] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:14:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:18:09] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:18:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:21:22] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:21:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:24:35] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:24:35] "GET /favicon.ico HTTP/1.1" 404 -
+d>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+     192.168.0.128 - - [27/Jun/2014 06:27:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:27:48] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:31:00] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:31:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:34:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:37:25] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:37:25] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:40:38] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:40:38] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:43:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:43:51] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:47:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:47:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:50:15] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:50:16] "GET /favicon.ico HTTP/1.1" 404 -
+   <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        192.168.0.128 - - [27/Jun/2014 06:53:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:53:29] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:56:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:56:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 06:59:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 06:59:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:03:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:03:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:06:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:06:19] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:09:31] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:09:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:12:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:12:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:15:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:15:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:19:09] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:19:09] "GET /favicon.ico HTTP/1.1" 404 -
+<td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+   192.168.0.128 - - [27/Jun/2014 07:22:21] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:22:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:25:34] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:25:35] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:28:47] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:28:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:31:59] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:32:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:35:12] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:35:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:38:25] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:38:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:41:38] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:41:38] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:44:50] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:44:51] "GET /favicon.ico HTTP/1.1" 404 -
+     <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+      192.168.0.128 - - [27/Jun/2014 07:48:03] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:48:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:51:16] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:51:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:54:28] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:54:29] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 07:57:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 07:57:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:00:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:00:54] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:04:06] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:04:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:07:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:07:18] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:10:30] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:10:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:13:43] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:13:43] "GET /favicon.ico HTTP/1.1" 404 -
+  <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+ 192.168.0.128 - - [27/Jun/2014 08:16:57] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:16:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:20:11] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:20:11] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:23:23] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:23:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:26:36] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:26:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:29:48] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:29:49] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:33:02] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:33:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:36:14] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:36:15] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:39:27] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:39:28] "GET /favicon.ico HTTP/1.1" 404 -
+       <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+    192.168.0.128 - - [27/Jun/2014 08:42:41] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:42:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:45:53] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:45:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:49:05] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:49:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:52:18] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:52:18] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:55:30] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:55:31] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 08:58:43] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 08:58:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 09:01:55] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 09:01:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 09:05:08] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 09:05:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.128 - - [27/Jun/2014 09:07:44] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 09:07:44] "GET /favicon.ico HTTP/1.1" 404 -
+    <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PCB</td>
+        <td>38</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>PSU</td>
+        <td>8</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ROBOT</td>
+        <td>7</td>
+        <td>0</td>
+    </tr>
+</table>
+Week: 26 
+<table class="DOA" background-color="green" size="50px">
+    <tr>
+        <th>Commodity</th>
+        <th>Used</th>
+        <th>DOA</th>
+    </tr>
+    <tr>
+        <td>DECK</td>
+        <td>26</td>192.168.0.128 - - [27/Jun/2014 09:10:56] "GET /dashboard/PCB HTTP/1.1" 200 -
+192.168.0.128 - - [27/Jun/2014 09:10:57] "GET /favicon.ico HTTP/1.1" 404 -

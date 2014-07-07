@@ -1,0 +1,21 @@
+<head>
+	<title>Engineering Files</title>
+</head>
+<body>
+	<h2>Metatron</h2>
+
+	<h3>{{ url }}</h3>
+
+	<h4>Directories:</h4>
+	<ul>
+	  	{% for dir in dirs %}
+	    	<li><a href="{{ url }}{{ dir }}">{{ dir }}</a></li>
+	    {% endfor %}
+	</ul>
+	<h4>Files:</h4>
+	<ul>
+	    {% for file in files %}
+	    	<li><a href="{{ url }}{{ file }}">{{ file }}</a></li>
+	    {% endfor %}
+	</ul>
+</body>
