@@ -1,0 +1,187 @@
+README for Microsoft ODBC Driver 11 for SQL Server on Linux
+
+This file contains instructions and notes about the Microsoft ODBC Driver 
+11 for SQL Server on Linux (hereafter called 'the driver').
+
+* If you're reading this after being referred by the installation output,
+  see 'Why is there an * in the configuration output?' in Installing below.
+
+
+What's Inside
+=============
+
+This is the driver and utilities of the Microsoft ODBC Driver 11 
+for SQL Server on Linux.  The following files are included:
+
+install.sh - The installation script to run to install the driver and its
+utilities.
+
+build_dm.sh - A helpful script used to download, configure and
+build the correct version of the unixODBC Driver Manager if needed.
+
+README - this file.
+
+LICENSE - the license agreement for this product. Used by install.sh.
+
+WARNING - Microsoft's 3rd party liability disclaimer.  Displayed when the
+build_dm.sh script is run.
+
+bin/bcp-11.0.2260.0 - Bulk Copy Program.  Used to import and export data
+from a SQL Server table.
+
+bin/bcp.rll - resource library that contains strings for error messages
+used by BCP.  Currently only in US English (en_US).
+
+bin/sqlcmd-11.0.2260.0 - Run SQL statements on a server.  Can be used
+interactively.
+
+bin/SQLCMD.rll - resource library that contains strings for error messages
+used by sqlcmd.  Currently only in US English (en_US).
+
+bin/BatchParserGrammar.dfa - file used by sqlcmd
+
+bin/BatchParserGrammar.llr - file used by sqlcmd
+
+docs/en_US.tar.gz - HTML documentation for 
+Microsoft ODBC Driver 11 for SQL Server on Linux and its associated
+utilities.
+
+lib64/libsmsodbcsql-11.0.so.2260.0 - Microsoft ODBC Driver 11 for SQL Server 
+on Linux
+
+lib64/msodbcsqlr11.rll - resource library that contains strings for error
+messages used by the driver. Currently only in US English (en_US).
+
+Prerequisites for Installing
+============================
+
+This driver is only supported on 64-bit SUSE Linux Enterprise 11 Service Pack 2. 
+Other configurations are not supported and will not likely work.
+
+The following libraries must be installed for the driver to work:
+glibc
+libstdc++46
+libgcc46
+libuuid1
+krb5
+libopenssl0_9_8
+
+
+The installing user must have write privileges to the /opt directory by
+default.  Otherwise, directories to place the driver and utilities may be
+specified with the --bin-dir and --lib-dir options of install.sh.
+
+This driver requires the unixODBC Driver Manager 2.3.0.  The driver manager
+must be configured with the following encoding options (other options may 
+also apply):
+
+./configure --enable-iconv --with-iconv-char-enc=UTF8
+  --with-iconv-ucode-enc=UTF16LE
+
+In addition, `odbc_config --cflags` must return -DSIZEOF_LONG_INT=8 and
+must NOT return -DBUILD_LEGACY_64_BIT_MODE.
+
+Also, the installing user must have write permissions to the /usr/bin
+directory if the abbreviated symbolic links to bcp-11.0.2260.0 (bcp) and
+sqlcmd-11.0.2260.0 (sqlcmd) are to be installed.  Otherwise, use --force to
+skip this step.
+
+The installation script can verify most of these configuration
+prerequisites by running:
+
+./install.sh verify
+
+
+What If The Driver Manager Isn't Configured Properly?
+-----------------------------------------------------
+
+You may build a properly configured unixODBC Driver Manager using the
+build_dm.sh script included.  However, if this script is unable to
+complete, you may configure and build the proper driver manager yourself
+using the instructions below:
+
+1. Remove any older installed version of unixODBC (for example, unixODBC
+2.2.11).  On 64-bit SUSE Linux Enterprise 11 Service Pack 2, you can do 
+this by executing the following command: yum remove unixODBC.
+
+2. Go to http://www.unixodbc.org/.
+
+3. Click the Download link, on the left side of the page.
+
+4. Click the Download link, on the next page, and save the file
+unixODBC-2.3.0.tar.gz to your computer.
+
+5. On your Linux computer, execute the following command: tar xvzf
+unixODBC-2.3.0.tar.gz
+
+6. Change to the unixODBC-2.3.0 directory.
+
+7. At a command prompt, type the following command:
+CPPFLAGS="-DSIZEOF_LONG_INT=8" and press enter.
+
+8. At a command prompt, type the following command: export CPPFLAGS and
+press enter.
+
+9. At a command prompt, type the following command: "./configure
+--prefix=/usr --libdir=/usr/lib64 --sysconfdir=/etc --enable-gui=no
+--enable-drivers=no --enable-iconv --with-iconv-char-enc=UTF8
+--with-iconv-ucode-enc=UTF16LE" and press enter.
+
+10. At a command prompt (logged in as root), type the following command
+'make' and press enter, and then 'make install' and press enter.
+
+You are now ready to install the driver. See Installing the Microsoft SQL
+Server ODBC Driver for Linux for more information.
+
+
+Installing
+==========
+
+To install the driver once the prerequisites are assured, simply run the
+installation script as follows:
+
+./install.sh install
+
+Options for the installation are:
+  --bin-dir=<directory> - location to deposit bcp and sqlcmd utilities,
+      defaults to the /opt/microsoft/msodbcsql/bin directory
+  --lib-dir=<directory> - location to deposit the Microsoft SQL Server ODBC 
+      Driver for Linux, defaults to the /opt/microsoft/msodbcsql/lib directory
+  --force - continues installation even if an error occurs
+  --accept-license - forgoes showing the EULA and implies agreement with its 
+                     contents
+
+A successful installation will complete as follows:
+
+Checking for 64 bit Linux compatible OS ..................................... OK
+Checking required libs are installed ........................................ OK
+unixODBC utilities (odbc_config and odbcinst) installed ..................... OK
+unixODBC Driver Manager version 2.3.0 installed ............................. OK
+unixODBC Driver Manager configuration correct .............................. OK*
+Microsoft ODBC Driver 11 for SQL Server on Linux already installed .... NOT FOUND
+Microsoft ODBC Driver 11 for SQL Server on Linux files copied ................ OK
+Symbolic links for bcp and sqlcmd created ................................... OK
+Microsoft ODBC Driver 11 for SQL Server on Linux registered ........... INSTALLED
+
+Any problems are reported in the log file, the path to which is printed at
+the end of the installation.
+
+
+Why is there an * in the configuration output?
+----------------------------------------------
+
+The installation script will attempt to verify the configuration of the
+system before installing the driver.  However, the character encoding used by
+the unixODBC Driver Manager cannot be verified through its included utilities.
+If you are not sure of the encoding that the unixODBC 2.3.0 Driver Manager was
+built with, check with your system administrator.  If the encoding still cannot
+be verified, you might need to build and install a new copy.  See 'What If The
+Driver Manager Isn't Configured Properly?' above.
+
+
+Support
+=======
+
+If you have issues or problems, please contact us at the SQL Server Native
+Client forum (via our main page at
+http://msdn.microsoft.com/en-us/sqlserver/ff658532.aspx).
