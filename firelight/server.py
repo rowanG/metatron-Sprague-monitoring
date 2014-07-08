@@ -176,22 +176,32 @@ def dashboard_LOGISTICS():
         return table.get_html_string(attributes={"size":"10px", "class":"DOA", "cellpadding":"5"})
 
     def openQuotes(result):
-	finalList = []
-	counter = 4
-	while counter >= 0:
-	    for x in result:
-		if counter >= 0:
-	    	    a = 'Q' + str(x[1])
- 	    	    finalList.append(a)
-		    counter -= 1
-		else:
-		    break
+	if len(result) != 0:
+	    finalList = []
+	    counter = 4
+	    while counter >= 0:
+	    	for x in result:
+		    if counter >= 0:
+	    	    	a = 'Q' + str(x[1])
+ 	    	    	finalList.append(a)
+		    	counter -= 1
+		    else:
+		    	break
 	
-	table = PrettyTable(['Quote Number:'], border= True)
-	for x in finalList:
-	    table.add_row([x])
-	return table.get_html_string(attributes={"size":"10px", "class":"OpenQuotes", "border":"0"})  
-    
+	    table = PrettyTable(['Quote Number:'], border= True)
+	    for x in finalList:
+	        table.add_row([x])
+	    finale1 = table.get_html_string(attributes={"size":"10px", "class":"OpenQuotes", "border":"0"})
+	    finale = ''
+	else:
+	    finale = '0'
+	    finale1 = ''
+
+	total = []
+	total.append(finale1)
+	total.append(finale)
+	return total    
+
 
     def doaHead(result):
         """
@@ -306,7 +316,7 @@ def dashboard_LOGISTICS():
     woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
     repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
     sRepairedToday = "SELECT COUNT(*) FROM tbl_component_location AS cl JOIN tbl_component AS co ON cl.component_id = co.id WHERE CONVERT(DATE, cl.entrancetime) = CONVERT(DATE, GETDATE()) AND co.[status] = 'GOOD' AND cl.location_id = 26"
-    procedure = [shippedToday(connect('sp_tiles_logistics_shippedToday')), shippedToday(connect('sp_tiles_logistics_ready_for_shipment')), dueTime(connect('sp_tiles_logistics_due_time')), openQuotes(connect('sp_moneypenny_open_quotes')), doaHead(connect('sp_tiles_components_doa_past7days')), onFloor(connect('sp_tiles_components_closed5')), openComponents(connect('sp_tiles_components_wo_open')), repaired2Day(connect('sp_tiles_components_repaired_today_all')), SAvailability(runQuery(sAvail))]
+    procedure = [shippedToday(connect('sp_tiles_logistics_shippedToday')), shippedToday(connect('sp_tiles_logistics_ready_for_shipment')), dueTime(connect('sp_tiles_logistics_due_time')), openQuotes(connect('sp_tiles_logistics_open_quotes')), doaHead(connect('sp_tiles_components_doa_past7days')), onFloor(connect('sp_tiles_components_closed5')), openComponents(connect('sp_tiles_components_wo_open')), repaired2Day(connect('sp_tiles_components_repaired_today_all')), SAvailability(runQuery(sAvail))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
@@ -392,8 +402,8 @@ def dashboard_LOGISTICS():
             'width': tile_sizes['big_square']['width'],
             'head': '<font size="6">Open Quotes</font>',
             'content1': [
-                '<h2></h2>',
-                '<span style="font-size:35px;vertical-align:center;">%s</span>' % procedure[3],
+                '<span style="font-size:15em;vertical-align:center;">%s</span>' % procedure[3][1],
+                '%s' % procedure[3][0],
                 ''
             ],
             'content2': [
@@ -463,7 +473,7 @@ def dashboard_LOGISTICS():
             'posy': str(gety(0)),
             'height': tile_sizes['small_square']['height'],
             'width': tile_sizes['small_square']['width'],
-            'head': '<font size="5">Avg time due</font>',
+            'head': '<font size="5">Avg days due</font>',
             'content1': [
                 '',
                 '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[2],
@@ -498,7 +508,7 @@ def dashboard_LOGISTICS():
             'head': '<font size="5">Ready for Shipment</font>',
             'content1': [
                 '',
-                '<span style="font-size:4em;vertical-align:center;">%s</span>' % procedure[1],
+                '<span style="font-size:5em;vertical-align:center;">%s</span>' % procedure[1],
                 ''
             ],
             'content2': []
@@ -1289,7 +1299,7 @@ def dashboard_HEAD():
     woOpen = "SELECT count(*) FROM tbl_rma AS rma, tbl_parts As part, tbl_customers AS cus, tbl_rmaproducts_generic AS rp LEFT JOIN tbl_workorders w ON w.id = rp.received_wo LEFT JOIN tbl_loc_latest ll ON ll.workorder_id = w.id LEFT JOIN tbl_locations l ON l.id = ll.location_id WHERE rma.id = rp.rma_id AND part.id = rp.part_id AND rp.shipped_wo IS NULL AND cus.id = ISNULL(rp.shiptocustomer_id,rma.klant_id) AND rma.klant_id NOT IN (SELECT id FROM tbl_customers WHERE customertype = 'SEEDSTOCK') AND rma.klant_id <> 306"
     repairedToday = "SELECT COUNT(*) AS 'Work orders closed today' FROM tbl_workorders AS wo WHERE CONVERT(DATE, wo.repairdate) = CONVERT(DATE, GETDATE())"
     sRepairedToday = "SELECT COUNT(*) FROM tbl_component_location AS cl JOIN tbl_component AS co ON cl.component_id = co.id WHERE CONVERT(DATE, cl.entrancetime) = CONVERT(DATE, GETDATE()) AND co.[status] = 'GOOD' AND cl.location_id = 26"
-    procedure = [woOverdueDisp(runQuery(woOverdue)), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_head_inventory_shortage')), DOA(connect('sp_tiles_head_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), onFloor(connect('sp_tiles_head_closed5')), openComponents(connect('sp_tiles_head_wo_open')), repaired2Day(connect('sp_tiles_head_repaired_today_all')), SAvailability(runQuery(sAvail)), openFAs(connect('sp_tiles_head_openfa'))]
+    procedure = [woOverdueDisp(connect('sp_tiles_head_overdue')), onHold(connect('sp_tiles_report_onhold')), threeColumn(connect('sp_tiles_head_inventory_shortage')), DOA(connect('sp_tiles_head_doa_past7days')), doaHead(connect('sp_tiles_head_doa_past7days')), onFloor(connect('sp_tiles_head_closed5')), openComponents(connect('sp_tiles_head_wo_open')), repaired2Day(connect('sp_tiles_head_repaired_today_all')), SAvailability(runQuery(sAvail)), openFAs(connect('sp_tiles_head_openfa'))]
 
     #   size of screen (11x6):
     #   * * * * * * * * * * * 
