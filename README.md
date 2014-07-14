@@ -1,15 +1,31 @@
-metatron-Sprague-monitoring
-===========================
+��Project Firelight
 
-Please note: This development branch connects using Linux. The master branch currently only has support for Microsoft Windows.
+-----------------
 
-Scaramanga
-==========
-Requirements
-------------
-* Easysoft ODBC Driver (or OpenSource alternative)
-* Python2.7+ (Python 3.x not supported)
-* Python Flask
-* PyODBC
-* _mssql
+Tile based statistics manager inspired by Windows 8's Metro UI.
 
+
+
+
+
+Requires:
+
+---------
+
+* Python 2.7 (Python 3.x not supported)
+
+* Access to the oddjob database
+
+* Segoe UI 8 font family
+
+* PrettyTable
+
+* ODBC Driver 11 for SQL Server
+
+* db module
+
+* pyodbc module 
+
+* requests module
+
+* redis
